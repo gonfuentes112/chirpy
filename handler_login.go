@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/bootdotdev/go-api-gate/courses/learn-web-servers/jwt/internal/auth"
+	"/internal/auth"
 )
 
 func (cfg *apiConfig) handlerLogin(w http.ResponseWriter, r *http.Request) {

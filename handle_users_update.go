@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"./internal/auth/"
+	"/internal/auth/"
 )
 
 func (cfg *apiConfig) handlerUsersUpdate(w http.ResponseWriter, r *http.Request) {

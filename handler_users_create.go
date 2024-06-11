@@ -5,8 +5,8 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/bootdotdev/go-api-gate/courses/learn-web-servers/jwt/internal/auth"
-	"github.com/bootdotdev/go-api-gate/courses/learn-web-servers/jwt/internal/database"
+	"/internal/auth"
+	"/internal/database"
 )
 
 type User struct {

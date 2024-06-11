@@ -6,7 +6,8 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/bootdotdev/go-api-gate/courses/learn-web-servers/jwt/internal/database"
+	"/internal/database"
+
 	"github.com/joho/godotenv"
 )
 
